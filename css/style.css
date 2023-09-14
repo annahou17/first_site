@@ -66,16 +66,26 @@ header {
     margin: 10px auto;
     border-radius: 5px;
 }
+.landmarks .line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.pictures .line{
+    width: 350px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
 .header-content h1 {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 #skip {
-    /* padding: 8px 15px;
-    background: #fc036b;
-    border-radius: 30px;
-    color: whitesmoke; */
     position: absolute;
     left: -10000px;
     top: auto;
@@ -85,8 +95,6 @@ header {
 }
 #skip:focus {
     position: static;
-    /* width: auto;
-    height: auto; */
     top: 0px;
 }
 
@@ -102,11 +110,22 @@ section {
     font-size: 7vmin;
     color: #49497e;
 }
+.title h2{
+    text-align: center;
+    font-size: 7vmin;
+    color: #49497e;
+}
 .title h3{
     text-align: center;
     font-size: 4vmin;
     color: #49497e;
     margin: 20px;
+}
+
+.pictures h4{
+    text-align: center;
+    font-size: 5vmin;
+    color: #49497e;
 }
 
 .row {
@@ -188,7 +207,10 @@ figcaption {
 .content-col h1 {
     font-size: 7vmin;
     color: #484872;
-
+}
+.content-col h3 {
+    font-size: 5vmin;
+    color: #484872;
 }
 .content-col .line {
     margin-left: -1px;
@@ -219,14 +241,27 @@ figcaption {
     font-size: 7vmin;
     color: #49497e;
 }
+.first h2 {
+    text-align: center;
+    font-size: 5vmin;
+    color: #49497e;
+    margin: 20px;
+}
+
 
 .first h3 {
+    text-align: center;
+    font-size: 3vmin;
+    color: #49497e;
+    margin: 20px;
+}
+.first h4{
     text-align: center;
     font-size: 4vmin;
     color: #49497e;
     margin: 20px;
 }
-.first h4{
+.first h5{
     font-weight: bold;
 }
 .first .food_links {
@@ -268,14 +303,6 @@ figcaption {
 }
 
 
-  /* Style the recipe ingredients and steps */
-
-.first h2 {
-    text-align: center;
-    font-size: 4vmin;
-    color: #49497e;
-    margin: 20px;
-}
 
 
 
@@ -540,6 +567,10 @@ figcaption {
 .container h1 {
     color: #fff;
     font-size: 80px;
+}
+.container h4 {
+    color: #fff;
+    font-size: 75px;
 }
 .card {
     width: 200px;
