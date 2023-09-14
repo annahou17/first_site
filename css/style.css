@@ -150,8 +150,8 @@ section {
 .row .col p{
     text-indent: 40px;
 }
-.landmarks .row .col figcaption {
-    font-size: 30px; /* Adjust the font size as needed */
+.landmarks .row .col h3 {
+    font-size: 25px; /* Adjust the font size as needed */
     color: #666; /* Change the caption text color */
     text-align: center; /* Center-align the caption text */
     margin-top: 10px; /* Add spacing between the image and caption */
