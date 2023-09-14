@@ -33,7 +33,7 @@ ul a:hover {
 .nav-links {
     display: flex;
     align-items: center;
-    background-color: #595959;
+    background-color: pink;
 }
 
 .nav-links li {
@@ -174,7 +174,8 @@ section {
     transition: background-color 0.3s ease;
 }
 .links a:hover {
-    background-color: #1C5673;
+    background-color: #062f44;
+    ;
 }
 
 /* photo gallery */
@@ -274,7 +275,7 @@ figcaption {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #007bff;
+    background-color: #1C5673;
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
