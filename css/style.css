@@ -33,7 +33,7 @@ ul a:hover {
 .nav-links {
     display: flex;
     align-items: center;
-    background-color: pink;
+    background-color: #666;
 }
 
 .nav-links li {
